@@ -1,0 +1,17 @@
+{
+	"name": "vera/cours-nosql",
+	"autoload": {
+		"psr-4": {
+			"Vera\\CoursNosql\\": "src/"
+		}
+	},
+	"authors": [
+		{
+			"name": "vera"
+		}
+	],
+	"require": {
+		"mongodb/mongodb": "^1.20",
+		"ext-mongodb": "*"
+	}
+}
